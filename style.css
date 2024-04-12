@@ -1,0 +1,70 @@
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color:thistle
+}
+button{
+    position: fixed;
+  right:10px;  
+  background-color:black;
+  color: white;
+  margin:10px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+main{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.notes
+{
+    height:300px;
+    width:350px;
+    /* border: 1px solid black; */
+    color: black;
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+.toolbar
+{
+    width:100%;
+background-color: black;
+color:white;
+padding: 5px;
+display: flex;
+justify-content: end;
+}
+.toolbar i{
+    padding: 5px;
+    cursor: pointer;
+
+
+}
+.notes textarea
+{
+    height:100%;
+    width:100%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.notes textarea:focus {
+    border: 0;
+    outline: 0;
+}
